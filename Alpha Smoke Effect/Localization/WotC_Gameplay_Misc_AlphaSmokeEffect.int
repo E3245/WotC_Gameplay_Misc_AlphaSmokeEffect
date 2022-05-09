@@ -1,0 +1,11 @@
+[XComDownloadableContentInfo_AlphaSmokeEffect]
+AlphaSmoke_EffectDisplayName="Alpha Smoke"
+AlphaSmoke_EffectDisplayDesc="Alpha Smoke grants this unit immunity to Overwatch-based abilities and a <Ability:ALPHASMOKE_HITMOD/>% defensive bonus, but suffers a <Ability:ALPHASMOKE_AIMMOD/>% aim penalty as long as the unit is in smoke.\nHowever, units that try to enter smoke from a non-smoked tile are still affected by Overwatch-based abilities."
+
+Item_SmokeGrenade_FriendlyName			= "X-18 Smoke Grenade"
+Item_SmokeGrenade_BriefSummary			= "A variant of the smoke grenade that fills the air with dense smoke, preventing enemies from using reaction shots on units within the smoke. The smoke is thick enough to buff the defense of units, but confers an aim malus."
+Item_SmokeGrenade_TacticalText			= "<Bullet/> Smoke can be deployed to instantly increase the defense of nearby units with a penalty to aim.<br><Bullet/> Prevents unit(s) from activating or triggering Overwatch-based abilities within the smoke: (Overwatch, Suppression, etc.), but the effect wears off once the smoke disappates, or is outside of smoke. If a unit is outside the smoke, and attempts to approach the smoke, are still affected by Overwatch-based abilities.<br><Bullet/> Affects all units, not just XCom."
+
+Item_SmokeGrenadeMk2_FriendlyName		= "X-18b Shroud Grenade"
+Item_SmokeGrenadeMk2_BriefSummary		= "A more powerful variant of the smoke grenade. Fills the air with dense smoke, preventing enemies from using reaction shots on units within the smoke. The smoke is thick enough to buff the defense of units, but confers an aim malus."
+Item_SmokeGrenadeMk2_TacticalText		= "<Bullet/> Smoke can be deployed to instantly increase the defense of nearby units with a penalty to aim.<br><Bullet/> Prevents unit(s) from activating or triggering Overwatch-based abilities: (Overwatch, Suppression, etc.), but the effect wears off once the smoke disappates, or is outside of smoke. If a unit is outside the smoke, and attempts to approach the smoke, are still affected by Overwatch-based abilities.<br><Bullet/> Affects all units, not just XCom."

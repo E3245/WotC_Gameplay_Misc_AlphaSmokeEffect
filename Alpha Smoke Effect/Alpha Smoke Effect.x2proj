@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>b50d1e18-9353-4f46-af6b-70fc5fa02526</Guid>
+    <Name>WotC_Gameplay_Misc_AlphaSmokeEffect</Name>
+    <Description>Alpha Smoke is the Chad to the Virgin smoke grenade</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>Alpha Smoke Effect</AssemblyName>
+    <RootNamespace>Alpha Smoke Effect</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Config\XComDLC_AlphaSmoke.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEngine.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameCore.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\FX_Smoke_White.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_Icons_AlphaSmoke.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\WP_Grenade_Smoke_White.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\WotC_Gameplay_Misc_AlphaSmokeEffect.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="Src\WotC_Gameplay_Misc_AlphaSmokeEffect\Classes\AlphaSmokeInstancedTileActor.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WotC_Gameplay_Misc_AlphaSmokeEffect\Classes\AlphaSmokeInstancedTileComponent.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WotC_Gameplay_Misc_AlphaSmokeEffect\Classes\AlphaSmokeTileListener.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WotC_Gameplay_Misc_AlphaSmokeEffect\Classes\UIScreenListener_UITacticalHUD_AlphaSmokeTiles.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WotC_Gameplay_Misc_AlphaSmokeEffect\Classes\X2Effect_AlphaSmoke.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WotC_Gameplay_Misc_AlphaSmokeEffect\Classes\X2Effect_ApplyAlphaSmokeToWorld.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WotC_Gameplay_Misc_AlphaSmokeEffect\Classes\XComDownloadableContentInfo_AlphaSmokeEffect.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config" />
+    <Folder Include="Localization" />
+    <Folder Include="Content" />
+    <Folder Include="Src" />
+    <Folder Include="Src\WotC_Gameplay_Misc_AlphaSmokeEffect" />
+    <Folder Include="Src\WotC_Gameplay_Misc_AlphaSmokeEffect\Classes" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
